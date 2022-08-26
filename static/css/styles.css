@@ -1,0 +1,60 @@
+header {
+  background: black;
+  padding: 10px;
+}
+
+header > h1, h2 {
+  color: white;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  padding: 10px;
+}
+
+.all-browsers {
+  margin: 0;
+  padding: 5px;
+  background-color: lightgray;
+}
+
+.all-browsers>h1,
+.browser {
+  margin: 10px;
+  padding: 5px;
+}
+
+.browser {
+  background: white;
+}
+
+.browser>h2,
+p {
+  margin: 4px;
+  font-size: 90%;
+}
+
+ul {
+  margin: 2px;
+  padding: 5px;
+  list-style-type: none;
+  display: flex;
+}
+
+li {
+  margin: auto;
+  padding: 5px;
+  display: inline-flex;
+  background-color: grey;
+  border-width: 10px;
+  border-radius: 5px;
+}
+
+.fitsize {
+  word-wrap: break-word;
+  width: 100%;
+}
